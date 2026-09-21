@@ -27,9 +27,14 @@ let firstName;
 let lastName;
 let address;
 let city;
+let state;
 let zipCode;
-let yourAge;
+let nyourAge;
 let referalSource;
-let contactYou;
+let scontactYou;
 
 //STEP 5
+//Different ways to declare a variable
+let someMonthfirstName = "Charles";
+var sLastName = "Okello";
+const nZipCode = "92111";
