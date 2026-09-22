@@ -79,3 +79,60 @@ console.log(typeof false);
 
 console.log(typeof undeclared);
 // Output: "undefined"
+
+//STEP 11
+let userName = "Charles Okello";
+alert("Hello, " + userName + "Welcome to JavaScript class!");
+
+//STEP 12
+let names = "Charles Okello";
+alert("Hi", +names);
+
+//STEP 13
+let course = "javaScript";
+alert(course);
+
+//STEP 14
+let userNames = "Charles Okello";
+alert("Hello, " + userNames + "\n Welcome to JavaScript class!");
+
+//STEP 15
+let answer = prompt("What is your name?");
+alert("My name is " + answer);
+
+//STEP 16
+let course1 = prompt("What course are you taking?");
+alert(course1);
+
+// STEP 17
+let x = 10;
+let y = 20;
+let sum = x + y;
+console.log(sum);
+
+//STEP 18
+let x = 20;
+x += 20;
+console.log(x);
+
+//STEP 19
+let x = 20;
+x *= 5;
+console.log(x);
+
+//STEP 20
+let y = 20 % 3;
+y /= 1;
+console.log(y);
+
+//STEP 21
+let x = 30;
+let y = 50;
+console.log(x > 10 && y < 60); //result is true
+
+//STEP 22
+const canVote = 21;
+const actuallAge = 16;
+
+const idealCase = actuallAge < canVote && canVote >= 21;
+Cconsole.log(idealCase); //false
